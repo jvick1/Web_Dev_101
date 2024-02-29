@@ -45,25 +45,51 @@ nvm install --lts
 **Remember to run all terminal commands in the Ubuntu Terminal from now on.**
 **
 
-### Create a New React App:
+### ⚓️ Anchor 
 
-Use the `create-react-app` tool to create a new React application. Open your terminal or command prompt and run the following command:
+Why Anchor?
+
+1. **Simplicity:** Anchor is lightweight and easy to use, making it suitable for beginners who want to get started with web development without dealing with complex setups.
+2. **Minimal Configuration:** Anchor requires minimal setup and configuration, allowing beginners to focus on learning HTML, CSS, and basic JavaScript concepts without the added complexity of tools and frameworks.
+3. **Fast Results:** With Anchor, users can quickly build and deploy static websites, enabling them to see results and learn through hands-on experience without getting bogged down in technical details.
+
+Install Anchor if you haven't already. You can do this via npm (Node Package Manager) by running the following command in your terminal or command prompt.
 
 ```
-npx create-react-app web_dev
+npm install -g anchor-cli
 ```
 
-Change into the directory of your newly created React app:
+Use the `anchor init` command to create a new Anchor project. Navigate to the directory where you want to create your project and run the following command:
 
+```
+anchor init web_dev
+```
+
+Change into the directory of your newly created Anchor project:
 
 ```
 cd web_dev
 ```
 
-Run the following command to start the development server and view your React app in the browser:
+Within your project directory, create a new HTML file. You can do this using a text editor like VS Code, Sublime Text, or Notepad. Here's a simple example of an HTML file:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Anchor Project</title>
+</head>
+<body>
+    <h1>Hello, Anchor!</h1>
+    <p>This is a super basic HTML webpage created using Anchor.</p>
+</body>
+</html>
+```
+
+After creating your HTML file, you can use Anchor to serve your website locally. Run the following command in your terminal:
 
 ```
-npm start
+anchor serve
 ```
-
-This command will automatically open your default web browser and serve your React app at `http://localhost:3000`.
