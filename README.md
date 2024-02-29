@@ -45,7 +45,7 @@ nvm install --lts
 **Remember to run all terminal commands in the Ubuntu Terminal from now on.**
 **
 
-### ⚓️ Anchor 
+### ⚓️ Intro to Anchor 
 
 Why Anchor?
 
