@@ -27,4 +27,4 @@ In our code, we are using external CSS. In our App.js file we can see the import
 There are 3 types of ways to use color in CSS:
 1. **Color Names:** `color: red;`
 2. **Hex Codes:** `color: #33adff;`
-3. **RGB Codes:** `color: rgb(255,0,255`
+3. **RGB Codes:** `color: rgb(255,0,255)`
