@@ -66,6 +66,8 @@ Use the `anchor init` command to create a new Anchor project. Navigate to the di
 anchor init web_dev
 ```
 
+![image](https://github.com/jvick1/Web_Dev_101/assets/32043066/92f65a10-fa5f-4660-9b09-14fb86968cde)
+
 Change into the directory of your newly created Anchor project:
 
 ```
