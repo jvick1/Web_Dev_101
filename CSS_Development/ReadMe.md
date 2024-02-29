@@ -1,16 +1,15 @@
 # CSS (Cascading Style Sheets)
 
- CSS is a fundamental technology in web development, crucial in creating visually appealing and functional websites and web applications.
+ CSS is a fundamental technology in web development, crucial in creating visually appealing and functional websites and web applications. Make sure to set up our web dev environment outlined in the parent folder of this repo. In this ReadMe.md file, we'll outline some of the fundamentals for CSS and how they look in the project we just set up. 
 
 ## CSS Rules: 
 Rules contain 3 parts `Selector {Property: Value}`
 
-In the example below, the `Selectors` are the two headers 1 & 2, the `properties` are Font & Color, and the `values` are Georgia & red:
+In our `App.css` file, our first `Selectors` is our div class named `App`, the `property` is `text-align`, and the `value` is `centered`:
 
 ```css
-H1, H2 {
-	Font-family: Georgia;
-	Color: red;
+.App {
+  text-align: center;
 }
 ```
 
@@ -19,7 +18,7 @@ H1, H2 {
 There are 3 types of CSS Styles;
 1. **Internal** – the style sheet is contained within the same HTML sheet in which the styles are used
 2. **External** – reference the styles in an external CSS file we do this with `<link rel=”stylesheet” href=”mystyles.css”>`
-3. **Inline** – style rules are added directly inside the element. **Note** this is usually not a good practice and tends to be inefficient
+3. **Inline** – style rules are added directly inside the element. **Note:** This is usually not a good practice and tends to be inefficient
 
 In our code, we are using external CSS. In our App.js file we can see the import statement at the top of the file `import './App.css';`.
 
