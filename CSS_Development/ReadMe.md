@@ -50,6 +50,14 @@ Calling the class is easy. Back in our App.js file we simply call the class' nam
 
 ```html
 <header className="App-header">
-
+  ...
 </header>
 ```
+
+A `<span>` is an inline HTML element used to apply style to a specific text/content. `<span>` can be also use `className`. Below is an example to illustrate the point but this is not used in our current code. 
+
+```html
+<p>This is <span style="color: blue;">blue</span> text.</p>
+```
+
+## Divisions (DIVs)
