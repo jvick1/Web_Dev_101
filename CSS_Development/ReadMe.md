@@ -1,5 +1,7 @@
 # CSS (Cascading Style Sheets)
 
+ CSS is a fundamental technology in web development, crucial in creating visually appealing and functional websites and web applications.
+
 ## CSS Rules contain 3 parts: 
 `Selector {Property: Value}`
 
