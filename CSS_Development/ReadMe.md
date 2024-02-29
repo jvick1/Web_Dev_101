@@ -28,3 +28,28 @@ There are 3 types of ways to use color in CSS:
 1. **Color Names:** `color: red;`
 2. **Hex Codes:** `color: #33adff;`
 3. **RGB Codes:** `color: rgb(255,0,255)`
+
+## Classes & Spans:
+
+In our `App.css` file, we can see an example of a class called App-header. One thing to note is that each class starts with a period. We then have class definitions like background color, font size, etc. Classes are a fundamental concept in CSS that greatly enhances the flexibility, maintainability, and scalability of your stylesheets.
+
+```css
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+```
+
+Calling the class is easy. Back in our App.js file we simply call the class' name.
+
+```html
+<header className="App-header">
+
+</header>
+```
