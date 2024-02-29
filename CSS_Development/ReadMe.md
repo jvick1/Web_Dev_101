@@ -20,3 +20,8 @@ There are 3 types of CSS Styles;
 1. **Internal** – the style sheet is contained within the same HTML sheet in which the styles are used
 2. **External** – reference the styles in an external CSS file we do this with `<link rel=”stylesheet” href=”mystyles.css”>`
 3. **Inline** – style rules are added directly inside the element. **Note** this is usually not a good practice and tends to be inefficient
+
+In our code, we are using external CSS. In our App.js file we can see the import statement at the top of the file `import './App.css';`.
+
+## Color Names and Codes:
+
