@@ -4,7 +4,7 @@ This repo aims to provide an introduction to coding with CSS and JavaScript, foc
 
 In the CSS section, we'll work with IDs, classes, and divisions, text properties, image styling, and navigation rules. The JavaScript section covers foundational concepts like placement and output, progressing to variables, arithmetic operators, arrays, conditional statements, loops, events, and functions, enabling students to integrate dynamic client-side functionality into their web pages.
 
-Please note that while Anchor does not currently support Windows, we'll leverage the Windows Subsystem for Linux (WSL) to create a Linux environment for Website development.
+We'll leverage the Windows Subsystem for Linux (WSL) to create a Linux environment for Website development.
 
 ### 👩‍💻 Setup WSL.
 
@@ -45,16 +45,25 @@ nvm install --lts
 **Remember to run all terminal commands in the Ubuntu Terminal from now on.**
 **
 
-### ⚓️ Anchor 
+### Create a New React App:
 
-Install Anchor if you haven't already. You can do this via npm (Node Package Manager) by running the following command in your terminal or command prompt.
-
-```
-npm install -g anchor-cli
-```
-
-and then let's create a new project called web_dev
+Use the `create-react-app` tool to create a new React application. Open your terminal or command prompt and run the following command:
 
 ```
-anchor init web_dev
+npx create-react-app web_dev
 ```
+
+Change into the directory of your newly created React app:
+
+
+```
+cd web_dev
+```
+
+Run the following command to start the development server and view your React app in the browser:
+
+```
+npm start
+```
+
+This command will automatically open your default web browser and serve your React app at `http://localhost:3000`.
