@@ -1,6 +1,8 @@
 # CSS (Cascading Style Sheets)
 
- CSS is a fundamental technology in web development, crucial in creating visually appealing and functional websites and web applications. Make sure to set up our web dev environment outlined in the parent folder of this repo. In this ReadMe.md file, we'll outline some of the fundamentals for CSS and how they look in the project we just set up. 
+ CSS is a fundamental technology in web development, crucial in creating visually appealing and functional websites and web applications. Make sure to set up our web dev environment outlined in the parent folder of this repo. 
+ 
+ In this ReadMe.md file, we'll outline some of the fundamentals for CSS and how they look in the project we just set up. 
 
 ## CSS Rules: 
 Rules contain 3 parts `Selector {Property: Value}`
