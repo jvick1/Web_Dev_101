@@ -52,3 +52,9 @@ Install Anchor if you haven't already. You can do this via npm (Node Package Man
 ```
 npm install -g anchor-cli
 ```
+
+and then let's create a new project called web_dev
+
+```
+anchor init web_dev
+```
