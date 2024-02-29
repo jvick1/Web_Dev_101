@@ -66,4 +66,8 @@ Run the following command to start the development server and view your React ap
 npm start
 ```
 
-This command will automatically open your default web browser and serve your React app at `http://localhost:3000`.
+This command will automatically open your default web browser and serve your React app at `http://localhost:3000`. The `App` function returns JSX (JavaScript XML) which is HTML-like syntax within JavaScript code. Overall, JSX and HTML share many similarities, and JSX syntax closely resembles HTML, making it easy for developers familiar with HTML to transition to React development. However, JSX introduces some additional features and syntax changes to support dynamic content generation and integrate seamlessly with JavaScript.
+
+![image](https://github.com/jvick1/Web_Dev_101/assets/32043066/42bc5a32-27cf-4ebe-8bdd-1ea8b7f5d6ba)
+
+This is the set up of the code. Now we can start by learning more about CSS & JS. 
