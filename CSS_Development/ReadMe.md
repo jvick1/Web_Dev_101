@@ -15,7 +15,7 @@ In our `App.css` file, our first `Selectors` is our div class named `App`, the `
 
 ## CSS Styles: 
 
-There are 3 types of CSS Styles;
+There are 3 types of CSS Styles:
 1. **Internal** – the style sheet is contained within the same HTML sheet in which the styles are used
 2. **External** – reference the styles in an external CSS file we do this with `<link rel=”stylesheet” href=”mystyles.css”>`
 3. **Inline** – style rules are added directly inside the element. **Note:** This is usually not a good practice and tends to be inefficient
@@ -24,3 +24,7 @@ In our code, we are using external CSS. In our App.js file we can see the import
 
 ## Color Names and Codes:
 
+There are 3 types of ways to use color in CSS:
+1. **Color Names:** `color: red;`
+2. **Hex Codes:** `color: #33adff;`
+3. **RGB Codes:** `color: rgb(255,0,255`
