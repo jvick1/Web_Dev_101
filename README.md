@@ -52,6 +52,8 @@ Use the `create-react-app` tool to create a new React application. Open your ter
 npx create-react-app web_dev
 ```
 
+![image](https://github.com/jvick1/Web_Dev_101/assets/32043066/fd6b566b-c5e6-4ae2-9ad8-c303f66a41e7)
+
 and then let's create a new project called web_dev
 
 ```
