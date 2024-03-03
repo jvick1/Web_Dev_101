@@ -80,14 +80,15 @@ An ID is a unique identifier assigned to an HTML element. Each ID must be unique
 
 IDs and classes are both important tools in CSS for styling HTML elements, with IDs providing unique identification and high specificity, while classes offer flexibility, reusability, and grouping capabilities.
 
-In our example code we can play around with this by adding in an `id` to our main text area.
+In our example HTML code, we can play around with this by adding in an `id` to our main text blob.
 
 ```html
 <p id = "main-content">
   ...
 </p>
 ```
-Then call the `id` in the CSS file and update the font size to 12. 
+
+Then call the `id` in the CSS file with a `#` and update the font size to 12px. 
 
 ```css
 #main-content {
