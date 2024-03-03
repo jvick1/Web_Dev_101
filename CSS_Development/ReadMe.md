@@ -95,3 +95,34 @@ Then call the `id` in the CSS file with a `#` and update the font size to 12px.
   font-size: 12px;
 }
 ```
+
+## CSS Margins
+
+Margins can be applied to all four sides of an element (top, right, bottom, and left), or individually. Margins are defined using the `margin` property in CSS. The syntax allows you to specify the margin for all sides at once (`margin: value;`), or individually for each side (`margin-top`, `margin-right`, `margin-bottom`, `margin-left`).
+
+Margins can be specified using various units, such as pixels (`px`), percentages (`%`), ems (`em`), rems (`rem`), and more. Percentages are often used for responsive design to create margins relative to the size of the containing element.
+
+```css
+/* Apply the same margin to all sides */
+margin: 10px;
+
+/* Apply different margins to each side */
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 10px;
+margin-left: 20px;
+
+/* SHORTHAND */
+/* One value applies to all sides */
+margin: 10px;
+
+/* Two values: top/bottom, left/right */
+margin: 10px 20px;
+
+/* Three values: top, left/right, bottom */
+margin: 10px 20px 15px;
+
+/* Four values: top, right, bottom, left */
+margin: 10px 20px 15px 25px;
+```
+
