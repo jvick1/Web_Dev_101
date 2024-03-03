@@ -63,3 +63,34 @@ A `<span>` is an inline HTML element used to apply style to a specific text/cont
 ```
 
 ## Divisions (DIVs)
+
+In HTML, `<div>` is a block-level element used as a generic container to group and structure content within a web page. `<div>`s are useful for **Grouping Content** within a webpage. For example, you might use `<div>` elements to contain a header, navigation menu, main content area, sidebar, footer, etc. `<div>` elements provide a way to apply **CSS styles** and layout properties to specific sections of a webpage. You can target `<div>` elements using CSS selectors to control their appearance, positioning, size, etc.
+
+In the code we generated our `<div>` has a className App which we call in the CSS file to customize it.
+
+```html
+<div className="App">
+   ...
+</div>
+```
+
+## CSS IDs
+
+An ID is a unique identifier assigned to an HTML element. Each ID must be unique within the HTML document. IDs are defined using the `id` attribute in HTML and preceded by a hash symbol (`#`) in CSS selectors.
+
+IDs and classes are both important tools in CSS for styling HTML elements, with IDs providing unique identification and high specificity, while classes offer flexibility, reusability, and grouping capabilities.
+
+In our example code we can play around with this by adding in an `id` to our main text area.
+
+```html
+<p id = "main-content">
+  ...
+</p>
+```
+Then call the `id` in the CSS file and update the font size to 12. 
+
+```css
+#main-content {
+  font-size: 12px;
+}
+```
