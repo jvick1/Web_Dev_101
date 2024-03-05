@@ -130,4 +130,4 @@ margin: 10px 20px 15px 25px;
 
 Padding refers to the space between the content of an element and its border. Padding has the same syntax as margin for example, `padding: 10px;`.
 
-![image](https://github.com/jvick1/Web_Dev_101/assets/32043066/0b8d78b3-205f-4c33-be13-df39ca076c87)
+![image](https://github.com/jvick1/Web_Dev_101/assets/32043066/b2b36da9-6d98-4580-b727-f13b38bd7eb2)
