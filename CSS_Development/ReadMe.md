@@ -216,3 +216,37 @@ word-spacing: 2px;
 ```css
 text-transform: capitalize; 
 ```
+## Backgrounds
+
+The `background` property in CSS allows you to set various background-related properties, such as background color, image, position, repeat behavior, and more. Here's an overview of CSS background properties:
+
+1. **background-color**: Sets the background color of an element.
+```css
+background-color: #fff;
+```
+
+2. **background-image**: Sets an image to be used as the background of an element.
+```css
+background-image: url('path/to/image.jpg');
+```
+
+3. **background-repeat**: Sets how a background image should be repeated if it doesn't fill the entire background area.
+```css
+background-repeat: repeat-x;
+```
+
+4. **background-position**: Sets the starting position of a background image within its container.
+```css
+background-position: center top;
+```
+
+5. **background-size**: Sets the size of the background image.
+```css
+background-size: cover;
+```
+
+6. **background-attachment**: Sets whether the background image scrolls with the content or remains fixed in place as the user scrolls the page
+```css
+background-attachment: fixed;
+```
+
