@@ -195,3 +195,8 @@ letter-spacing: 1px;
 ```css
 word-spacing: 2px;
 ```
+11. **text-transform**: Sets text to lowercase, uppercase, capitalize, etc.
+
+```css
+text-transform: capitalize; 
+```
