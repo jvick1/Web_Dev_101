@@ -132,6 +132,22 @@ Padding refers to the space between the content of an element and its border. Pa
 
 ![image](https://github.com/jvick1/Web_Dev_101/assets/32043066/b2b36da9-6d98-4580-b727-f13b38bd7eb2)
 
+## Borders
+
+In CSS, borders are used to create lines or outlines around elements, separating them visually from surrounding content. They can be applied to any block-level or inline element, such as `<div>`, `<p>`, `<span>`, etc.
+
+```css
+border: 4px;
+border-color: #333;
+border-style: dashed;
+```
+
+or if you want some cleaner code try the following:
+
+```css
+border: 4px dashed #333;
+```
+
 ## Text Properties
 
 Text properties are used to control the appearance and behavior of text content within HTML elements. These properties allow developers to specify various aspects of text styling, such as font size, font family, font weight, text color, alignment, decoration, spacing, and more. Here are some commonly used text properties in CSS:
