@@ -134,7 +134,7 @@ Padding refers to the space between the content of an element and its border. Pa
 
 ## Borders
 
-In CSS, borders are used to create lines or outlines around elements, separating them visually from surrounding content. They can be applied to any block-level or inline element, such as `<div>`, `<p>`, `<span>`, etc.
+In CSS, borders are used to create lines or outlines around elements, separating them visually from surrounding content. They can be applied to any block-level or inline element, such as `<div>`, `<p>`, `<span>`, etc. Borders can be dashed, dotted, double, groove, hidden, inset, outset, ridge, solid, none. 
 
 ```css
 border: 4px;
