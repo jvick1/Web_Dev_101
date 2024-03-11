@@ -249,4 +249,22 @@ background-size: cover;
 ```css
 background-attachment: fixed;
 ```
+## Transparency
 
+Opacity values range from 0 (completely transparent) to 1 (completely opaque). Here's how you can control transparency in CSS:
+
+Let's do an example with our existing code. I want to make `.App-logo` fade 40% when I hover over the icon. How can I do this? Hint remove `pointer-events: none;` from the `App.css` file.
+
+**Solution:** in our `App.css` remove `pointer-events: none;`, we'll add a starting `opacity` set to 1, add a `transition` on opacity, and set the hover `opacity` to `0.6`.
+
+```css
+.App-logo {
+  height: 40vmin;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.App-logo:hover {
+  opacity: 0.6;
+}
+```
