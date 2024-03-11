@@ -131,3 +131,67 @@ margin: 10px 20px 15px 25px;
 Padding refers to the space between the content of an element and its border. Padding has the same syntax as margin for example, `padding: 10px;`.
 
 ![image](https://github.com/jvick1/Web_Dev_101/assets/32043066/b2b36da9-6d98-4580-b727-f13b38bd7eb2)
+
+## Text Properties
+
+Text properties are used to control the appearance and behavior of text content within HTML elements. These properties allow developers to specify various aspects of text styling, such as font size, font family, font weight, text color, alignment, decoration, spacing, and more. Here are some commonly used text properties in CSS:
+
+1. **font-family**: Set the font family or typeface to be used for the text content. Multiple fonts can be listed as fallback options if the primary font is not available. 
+
+```css
+font-family: Arial, sans-serif;
+```
+
+2. **font-size**: Sets the size of the text. It can be specified in various units such as pixels, ems, rems, percentages, etc.
+
+```css
+font-size: 16px;
+```
+
+3. **font-weight**: Sets the thickness or boldness of text. Can be keywords like `normal` or `bold`, or numeric values like `100`, `400`, etc.
+
+```css
+font-weight: bold;
+```
+
+4. **font-style**: Sets the style of the font, such as italic or normal.
+
+```css
+font-style: italic;
+```
+
+5. **text-align**: Sets alignments of text within its containing element. Common values include `left`, `right`, `center`, and `justify`.
+
+```css
+text-align: center;
+```
+
+6. **text-decoration**: Sets decorations added to text, such as underline, overline, line-through, or none.
+
+```css
+text-decoration: underline;
+```
+
+7. **color**: Sets the color of the text content.
+
+```css
+color: #333;
+```
+
+8. **line-height**: Controls the height of each line of text. It can be set as a unitless number, percentage, or specific length value.
+
+```css
+line-height: 1.5;
+```
+
+9. **letter-spacing**: Specifies the spacing between characters in the text.
+
+```css
+letter-spacing: 1px;
+```
+
+10. **word-spacing**: Controls the spacing between words in the text.
+
+```css
+word-spacing: 2px;
+```
