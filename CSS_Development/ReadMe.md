@@ -312,3 +312,46 @@ The display property specifies the type of display box used for an element. It c
     overflow: hidden; /* Content that overflows the element is hidden */
 }
 ```
+
+## CSS Positioning 
+
+The CSS position property specifies the positioning method used for an element. There are four main values for the position property: static, relative, absolute, and fixed. These positioning values allow you to precisely control the placement of elements on the page, enabling you to create complex layouts and designs in CSS. Understanding how each positioning value works is essential for effective web development.
+
+The `static` value is the default positioning method for elements. Elements with `position: static;` are positioned according to the normal document flow. Elements with position: static; are not affected by the top, right, bottom, or left properties.
+
+```css
+.element {
+    position: static;
+}
+```
+
+The `relative` value positions an element relative to its normal position in the document flow. When an element is set to `position: relative;`, you can use the top, right, bottom, and left properties to offset it from its original position.
+
+```css
+.element {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+```
+
+The `absolute` value positions an element relative to its nearest positioned ancestor (an ancestor with a position other than static).
+If no positioned ancestor is found, the element is positioned relative to the initial containing block (usually the <html> element).
+
+```css
+.element {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+```
+
+The `fixed` value positions an element relative to the browser window's viewport, so it remains fixed in its position even when the page is scrolled. Fixed-positioned elements are not affected by scrolling.
+
+```css
+.element {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+```
