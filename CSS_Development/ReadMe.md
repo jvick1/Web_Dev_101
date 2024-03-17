@@ -268,3 +268,47 @@ Let's do an example with our existing code. I want to make `.App-logo` fade 40% 
   opacity: 0.6;
 }
 ```
+
+## Width and Height
+
+The `width` property sets the width of an element. The `min-width` property sets the minimum width that an element can be resized to. Lastly `max-width` sets the maximum width of an element preventing it from becoming wider than the specified value. 
+
+The same concepts apply to the `height` element and use the same syntax. 
+
+```css
+.element {
+    width: 300px;
+    min-width: 100px;
+    max-width: 500px;
+}
+```
+
+## Nested Divs
+
+The outer <div> element that contains both the image and the text is referred to as the "Container". Within the Container <div>, you'll have two nested <div> elements: one for the image and one for the text. In the example below we place text on top of images all contained in a container div. 
+
+```css
+<div class="container">
+    <div class="image">
+        <img src="example.jpg" alt="Example Image">
+    </div>
+    <div class="text">
+        <h2>Text on Top of Image</h2>
+        <p>This is some text that appears on top of the image.</p>
+    </div>
+</div>
+```
+
+## Display Properties
+
+The display property specifies the type of display box used for an element. It can be set to various values, such as block, inline, inline-block, flex, grid, table, etc., The visibility property determines whether an element is visible or hidden without affecting the layout of surrounding elements. The float property specifies whether an element should be floated to the left or right side of its container. The position property determines the positioning method used for an element. Values include static, relative, absolute, fixed, and sticky, each affecting how the element is positioned within its containing element. The overflow property specifies how content that overflows the element's box should be handled. It can be set to visible, hidden, scroll, or auto.
+
+```css
+.element {
+    display: block; /* Element displayed as a block-level element */
+    visibility: hidden; /* Element is invisible but still occupies space */
+    float: left; /* Element floated to the left */
+    position: absolute; /* Element positioned absolutely */
+    overflow: hidden; /* Content that overflows the element is hidden */
+}
+```
