@@ -398,4 +398,37 @@ The higher the `z-index` value, the closer the element is to the top of the stac
 
 In this example, `element1` will appear on top of `element2` because it has a higher `z-index` value.
 
+## CSS Styling Links
 
+You can style links using different pseudo-classes to specify their appearance in various states, such as unvisited, visited, hover, and active. These pseudo-classes allow you to customize the visual presentation of links based on user interaction and their browsing history.
+
+**Unvisited** defined as `link` is the default link class. In the example below our link will be blue with no underline. 
+
+**Visited** defined as `visited` shows that the user has already visited this link. In our example the link will be purple.
+
+**Hover** defined as `hover` is a pseudo-class that activates when the users mouse cursor hovers over the link. Our code will add an underline to the link when we hover.
+
+**Active** is defined as `active` changing the link when they are being activated or clicked by the user. Our code will make the link background yellow.
+
+```css
+/* Default link styles */
+a:link {
+    color: blue;
+    text-decoration: none; /* Remove underline by default */
+}
+
+/* Visited link styles */
+a:visited {
+    color: purple;
+}
+
+/* Hover styles */
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Active styles */
+a:active {
+    background-color: yellow; /* Yellow background when clicked */
+}
+```
