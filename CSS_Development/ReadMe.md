@@ -355,3 +355,32 @@ The `fixed` value positions an element relative to the browser window's viewport
     right: 20px;
 }
 ```
+
+## Float & Clear Properties
+
+The CSS `float` property is used to specify whether an element should be floated to the left or right side of its container, allowing content to flow around it. This property is commonly used for creating layouts where elements are positioned side by side or where text wraps around images.
+
+The `float` property can be set to left, right or none.
+
+```css
+.float-left{
+   float: left;
+}
+```
+
+The `clear` property controls the behavior of elements adjacent to floated elements. When an element is floated, other elements may wrap around it, causing layout issues. The `clear` property ensures that an element does not wrap around a floated element by specifying whether it should be placed below the floated element or not.
+
+The `clear` property can be set to left, right, both or none.
+
+```css
+.clear-left {
+    clear: left;
+}
+```
+
+
+
+
+
+
+
