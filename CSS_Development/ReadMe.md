@@ -378,9 +378,24 @@ The `clear` property can be set to left, right, both or none.
 }
 ```
 
+## Z-Index
 
+The CSS `z-index` property controls the stacking order of positioned elements along the z-axis (depth) within a stacking context. When elements overlap on a webpage, the `z-index` property determines which element appears on top of the others.
 
+The higher the `z-index` value, the closer the element is to the top of the stacked order and more likely to appear in front of other elements. Negative values are allowed and can be used to position elements behind others.
 
+```css
+.element1 {
+    position: relative;
+    z-index: 2;
+}
 
+.element2 {
+    position: relative;
+    z-index: 1;
+}
+```
+
+In this example, `element1` will appear on top of `element2` because it has a higher `z-index` value.
 
 
