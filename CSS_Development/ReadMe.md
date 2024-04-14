@@ -360,7 +360,7 @@ The `fixed` value positions an element relative to the browser window's viewport
 
 The CSS `float` property is used to specify whether an element should be floated to the left or right side of its container, allowing content to flow around it. This property is commonly used for creating layouts where elements are positioned side by side or where text wraps around images.
 
-The `float` property can be set to left, right or none.
+The `float` property can be set to left, right, or none.
 
 ```css
 .float-left{
@@ -404,9 +404,9 @@ You can style links using different pseudo-classes to specify their appearance i
 
 **Unvisited** defined as `link` is the default link class. In the example below our link will be blue with no underline. 
 
-**Visited** defined as `visited` shows that the user has already visited this link. In our example the link will be purple.
+**Visited** defined as `visited` shows that the user has already visited this link. In our example, the link will be purple.
 
-**Hover** defined as `hover` is a pseudo-class that activates when the users mouse cursor hovers over the link. Our code will add an underline to the link when we hover.
+**Hover** defined as `hover` is a pseudo-class that activates when the user's mouse cursor hovers over the link. Our code will add an underline to the link when we hover.
 
 **Active** is defined as `active` changing the link when they are being activated or clicked by the user. Our code will make the link background yellow.
 
@@ -430,5 +430,102 @@ a:hover {
 /* Active styles */
 a:active {
     background-color: yellow; /* Yellow background when clicked */
+}
+```
+
+## CSS Tables
+
+First, let's look at HTML:
+The `<table>` element is the container for the entire table. It contains one or more `<tr>` (table row) elements. Rows can contain one or more `<th>` (header cell) or `<td>` (table data) elements.
+
+```html
+<!--link to css folder-->
+<link href="/css/table.css" rel="stylesheet">
+
+<!-- Content -->
+<div class="container">
+<div>
+    <div class="container">
+      <table>
+        <thead>
+          <tr role="row" style="background-color:#4879aa">
+            <th style="color:#fff">Header 1</th>
+            <th style="color:#fff">Header 2</th>
+            <th style="color:#fff">Header 3</th>
+            <th style="color:#fff">Header 4</th>
+            <th style="color:#fff">Header 5</th>
+            <th style="color:#fff">Header 6</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>row 1.1</td>
+            <td>row 1.2</td>
+            <td>row 1.3</td>
+            <td>row 1.4</td>
+            <td>row 1.5</td>
+            <td>row 1.6</td>
+          </tr>
+          <tr>
+            <td>row 2.1</td>
+            <td>row 2.2</td>
+            <td>row 2.3</td>
+            <td>row 2.4</td>
+            <td>row 2.5</td>
+            <td>row 2.6</td>
+          </tr>
+          <tr>
+            <td>row 3.1</td>
+            <td>row 3.2</td>
+            <td>row 3.3</td>
+            <td>row 3.4</td>
+            <td>row 3.5</td>
+            <td>row 3.6</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+```
+
+This CSS snippet improves a table's appearance and usability. It ensures full-width responsiveness, seamless borders, and subtle shadow effects.
+
+```css
+table {
+	width:100%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+th, td {
+	padding: 15px;
+	background-color: rgba(40, 40, 40, 0);
+	color: #0D0D0D;
+}
+
+th {
+	text-align: left;
+}
+
+thread th {
+		background-color: #55608f;
+}
+
+tbody tr:hover,
+td:hover::before {
+  background-color: rgba(40, 40, 40, 0.1);
+}
+
+td:hover:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(40, 40, 40, 0.1);
+				z-index: -1;
 }
 ```
