@@ -510,22 +510,22 @@ th {
 }
 
 thread th {
-		background-color: #55608f;
+	background-color: #55608f;
 }
 
 tbody tr:hover,
 td:hover::before {
-  background-color: rgba(40, 40, 40, 0.1);
+	background-color: rgba(40, 40, 40, 0.1);
 }
 
 td:hover:before {
-				content: "";
-				position: absolute;
-				left: 0;
-				right: 0;
-				top: -9999px;
-				bottom: -9999px;
-				background-color: rgba(40, 40, 40, 0.1);
-				z-index: -1;
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -9999px;
+	bottom: -9999px;
+	background-color: rgba(40, 40, 40, 0.1);
+	z-index: -1;
 }
 ```
