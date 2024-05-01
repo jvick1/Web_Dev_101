@@ -135,7 +135,7 @@ In JavaScript, there are several data types used to represent different kinds of
 
 JavaScript is a dynamically typed language, meaning variables can hold values of any data type, and data types are automatically converted as needed during operations.
 
-## Constants
+### Constants
 
 Below is an example of `innerHTML` which uses `id="math"` and is set to a constant `5+6`.
 
@@ -157,7 +157,7 @@ Below is an example of `innerHTML` which uses `id="math"` and is set to a consta
 </html>
 ```
 
-## Variables 
+### Variables 
 
 ```html
 <html>
@@ -182,7 +182,9 @@ document.getElementById("demo").innerHTML = z;
 </html>
 ```
 
-## Arithmetic Operators 
+### Arithmetic Operators 
 
 `+` Addition, `-` subtraction, `*` multiplication, `/` Division, `%` Modulus, `++` Increment, `--` Decrement.
+
+### Objects
 
