@@ -108,3 +108,25 @@ There are a few types of outputs ranging from:
 </body>
 </html>
 ```
+
+## Constants
+
+Below is an example of `innerHTML` which uses `id="math"` and is set to a constant `5+6`.
+
+```html
+<html>
+<head>
+<title>Sample JavaScript</title>
+</head>
+
+<body>
+
+<p id="math"></p>
+
+<script type="text/javascript">
+  document.getElementById("math").innerHTML = 5+6;
+</script>
+
+</body>
+</html>
+```
