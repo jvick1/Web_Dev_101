@@ -141,10 +141,14 @@ Below is an example of `innerHTML` which uses `id="math"` and is set to a consta
 
 <p> Working with Variables </p>
 
+<p id="demo></p>
+
 <script>
 var x = 10;
 var y = 15;
 var z = x + y;
+
+document.getElementById("demo").innerHTML = z;
 
 </script>
 
