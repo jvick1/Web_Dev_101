@@ -130,3 +130,24 @@ Below is an example of `innerHTML` which uses `id="math"` and is set to a consta
 </body>
 </html>
 ```
+
+## Variables 
+
+```html
+<html>
+<body>
+
+<h1> JavaScript Variables </h1>
+
+<p> Working with Variables </p>
+
+<script>
+var x = 10;
+var y = 15;
+var z = x + y;
+
+</script>
+
+</body>
+</html>
+```
