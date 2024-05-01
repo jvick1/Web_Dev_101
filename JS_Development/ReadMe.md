@@ -112,16 +112,25 @@ There are a few types of outputs ranging from:
 In JavaScript, there are several data types used to represent different kinds of values:
 
 1. Primitive Data Types:
+
 -String: Represents textual data, enclosed in single or double quotes.
+
 -Number: Represents numeric data, including integers and floating-point numbers.
+
 -Boolean: Represents a logical value, either true or false.
+
 -Null: Represents the intentional absence of any value.
+
 -Undefined: Represents a variable that has been declared but not assigned a value.
+
 -Symbol: Represents a unique identifier. Introduced in ECMAScript 6 (ES6).
 
 2. Complex Data Types:
+
 -Object: Represents a collection of key-value pairs, where keys are strings (or symbols) and values can be any data type, including other objects.
+
 -Function: A special type of object that can be invoked.
+
 -Array: A special type of object used to store ordered collections of data, indexed by integers starting from 0.
 
 JavaScript is a dynamically typed language, meaning variables can hold values of any data type, and data types are automatically converted as needed during operations.
