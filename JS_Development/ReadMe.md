@@ -26,4 +26,6 @@ Functions like the one defined in the provided code snippet can target specific 
 
 ## Introduction
 
+JavaScript is an object-oriented programming language primarily used for client-side web development. It enables interactive features on web pages by allowing developers to manipulate the Document Object Model (DOM) and create dynamic content and functionality.
+
 HTML and CSS are primarily used for structuring and styling web pages, providing static elements and layout. In contrast, JavaScript is a client-side programming language, facilitating interactive behavior within web browsers. JavaScript enables dynamic communication with the browser, enhancing user experience through features like interactivity and real-time updates on web pages.
