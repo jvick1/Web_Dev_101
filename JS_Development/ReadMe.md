@@ -155,3 +155,8 @@ document.getElementById("demo").innerHTML = z;
 </body>
 </html>
 ```
+
+## Arithmetic Operators 
+
+`+` Addition, `-` subtraction, `*` multiplication, `/` Division, `%` Modulus, `++` Increment, `--` Decrement.
+
