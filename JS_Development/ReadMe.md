@@ -85,3 +85,26 @@ There are a few types of outputs ranging from:
 5. `confirm()`: Message box with OK and Cancel buttons, prompting the user for confirmation
 6. `innerHTML property`: Allows you to set the HTML content of an element dynamically. For example, `element.innerHTML = "New content";`
 7. `textContent property`: Similar to `innerHTML` but sets only the text content of an element without interpreting HTML.
+
+## Commenting Code
+
+```HTML
+<html>
+<body>
+
+<script>
+
+  ///for single line comments
+  
+  /*
+  for
+  multi
+  line
+  comments
+  */
+
+</script>
+
+</body>
+</html>
+```
