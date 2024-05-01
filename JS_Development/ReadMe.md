@@ -94,7 +94,7 @@ There are a few types of outputs ranging from:
 
 <script>
 
-  ///for single line comments
+  //for single line comments
   
   /*
   for
