@@ -32,6 +32,8 @@ HTML and CSS are primarily used for structuring and styling web pages, providing
 
 ## Placement
 
+You can enter JavaScript directly into your HTML or you could reference an external JS file with ` <script type="text/javascript" src="fileName.js">`. In the example below we calculate the user's age in dog years, we do this by multiplying their age by 7. 
+
 ```html
 <html>
   <head>
