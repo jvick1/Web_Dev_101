@@ -74,3 +74,14 @@ You can enter JavaScript directly into your HTML or you could reference an exter
   </body>
 </html>
 ```
+
+## Output
+
+There are a few types of outputs ranging from:
+1. `document.write()`: Dynamically writes content to a document
+2. `console.log()`: Outputs messages to the web browser's console (common for debugging)
+3. `alert()`: Displays a modal dialog box with a message and an OK button
+4. `prompt()`: Displays dialog box with a message, input field, and OK and Cancel buttons
+5. `confirm()`: Message box with OK and Cancel buttons, prompting the user for confirmation
+6. `innerHTML property`: Allows you to set the HTML content of an element dynamically. For example, `element.innerHTML = "New content";`
+7. `textContent property`: Similar to `innerHTML` but sets only the text content of an element without interpreting HTML.
