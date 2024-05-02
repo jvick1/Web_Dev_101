@@ -446,3 +446,5 @@ document.getElementById("demo").innerHTML = Combined;
 
 
 ## Conditional Statements
+
+Conditional statements in JavaScript, like `if`, `else if`, and `else`, allow you to execute different blocks of code based on specified conditions. These statements evaluate conditions and execute the corresponding block of code if the condition is true, providing a way to control the flow of your program based on different scenarios.
