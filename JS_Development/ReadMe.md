@@ -188,3 +188,24 @@ document.getElementById("demo").innerHTML = z;
 
 ### Objects
 
+
+A JavaScript object is a collection of key-value pairs where keys are strings (or symbols) and values can be of any data type, including other objects. Objects in JavaScript provide a way to organize and structure data.
+
+Here's an example of a simple JavaScript object:
+
+```js
+let person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+};
+```
+
+In this object keys are `name`, `age`, and `city` while `"John"`, `"30"`, and `"NYC"` are the values.
+
+These objects can be outputted using console logging `console.log(person);`, displayed in html `document.getElementById("output").innerHTML = "Name: " + person.name + "<br>Age: " + person.age + "<br>City: " + person.city;`, alerting `alert(JSON.stringify(person));`, and string conversion like so:
+
+```js
+let personAsString = JSON.stringify(person);
+console.log(personAsString);
+```
