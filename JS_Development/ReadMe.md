@@ -113,25 +113,25 @@ In JavaScript, there are several data types used to represent different kinds of
 
 1. Primitive Data Types:
 
--String: Represents textual data, enclosed in single or double quotes.
+- String: Represents textual data, enclosed in single or double quotes.
 
--Number: Represents numeric data, including integers and floating-point numbers.
+- Number: Represents numeric data, including integers and floating-point numbers.
 
--Boolean: Represents a logical value, either true or false.
+- Boolean: Represents a logical value, either true or false.
 
--Null: Represents the intentional absence of any value.
+- Null: Represents the intentional absence of any value.
 
--Undefined: Represents a variable that has been declared but not assigned a value.
+- Undefined: Represents a variable that has been declared but not assigned a value.
 
--Symbol: Represents a unique identifier. Introduced in ECMAScript 6 (ES6).
+- Symbol: Represents a unique identifier. Introduced in ECMAScript 6 (ES6).
 
 2. Complex Data Types:
 
--Object: Represents a collection of key-value pairs, where keys are strings (or symbols) and values can be any data type, including other objects.
+- Object: Represents a collection of key-value pairs, where keys are strings (or symbols) and values can be any data type, including other objects.
 
--Function: A special type of object that can be invoked.
+- Function: A special type of object that can be invoked.
 
--Array: A special type of object used to store ordered collections of data, indexed by integers starting from 0.
+- Array: A special type of object used to store ordered collections of data, indexed by integers starting from 0.
 
 JavaScript is a dynamically typed language, meaning variables can hold values of any data type, and data types are automatically converted as needed during operations.
 
@@ -187,7 +187,6 @@ document.getElementById("demo").innerHTML = z;
 `+` Addition, `-` subtraction, `*` multiplication, `/` Division, `%` Modulus, `++` Increment, `--` Decrement.
 
 ### Objects
-
 
 A JavaScript object is a collection of key-value pairs where keys are strings (or symbols) and values can be of any data type, including other objects. Objects in JavaScript provide a way to organize and structure data.
 
