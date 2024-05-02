@@ -237,7 +237,7 @@ document.getElementById("demo").innerHTML = string1;
 - `++` Increment
 - `--` Decrement
 
-## Random Numbers
+### Random Numbers
 
 This is a built-in JavaScript function that generates a random floating-point number between 0 (inclusive) and 1 (exclusive). It returns a random number each time it's called.
 
@@ -256,3 +256,43 @@ document.getElementById("demo").innerHTML = Math.random();
 </body>
 </html>
 ```
+
+### Min and Max Functions
+
+The `Math.min()` function returns the smallest of zero or more numbers. `Math.max()` will return the max of the numbers. 
+
+You can pass any number of arguments to it, separated by commas, and it will return the smallest value among those numbers.
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+<script>
+
+document.getElementById("demo").innerHTML =
+Math.min(600,200,100,-20); // Returns -20
+
+</script>
+
+</body>
+</html>
+```
+
+### Round
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+<script>
+
+document.getElementById("demo").innerHTML = Math.round(15.4); // Returns 15
+
+</script>
+
+</body>
+</html
