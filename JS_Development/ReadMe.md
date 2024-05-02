@@ -311,8 +311,56 @@ Javascript starts its index at 0.
 
 <script>
 
-var fruits = ["Apple", "Orange", "Pear", "Grape"]
+var fruits = ["Apple", "Orange", "Pear", "Grape"];
 document.getElementById("demo").innerHTML = fruits[0]; // Returns Apple
+
+</script>
+
+</body>
+</html
+```
+
+### Attributes
+
+You can find the length of an array by added `fruits.length`. 
+Want the output to be a string use `toString()` this seprates all elements in an array by a comma.
+Want to separate on something besides a comma? use `join(" ")`
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+<script>
+
+var fruits = ["Apple", "Orange", "Pear", "Grape"];
+document.getElementById("demo").innerHTML = fruits.toString(); // Returns full array separated by a comma
+
+</script>
+
+</body>
+</html
+```
+
+### Pop, push, shift, and unshift 
+
+- The `pop()` method removes the last element from an array and returns that element. It mutates the original array.
+- The `push()` method adds one or more elements to the end of an array and returns the new length of the array. It mutates the original array.
+- The `shift()` method removes the first element from an array and returns that element. It mutates the original array.
+- The `unshift()` method adds one or more elements to the beginning of an array and returns the new length of the array. It mutates the original array.
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+<script>
+
+var fruits = ["Apple", "Orange", "Pear", "Grape"];
+fruits.pop();
+document.getElementById("demo").innerHTML = fruits.join(" "); //this will remove grape
 
 </script>
 
