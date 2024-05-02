@@ -296,3 +296,26 @@ document.getElementById("demo").innerHTML = Math.round(15.4); // Returns 15
 
 </body>
 </html
+```
+
+
+## Arrays 
+
+Javascript starts its index at 0. 
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+<script>
+
+var fruits = ["Apple", "Orange", "Pear", "Grape"]
+document.getElementById("demo").innerHTML = fruits[0]; // Returns Apple
+
+</script>
+
+</body>
+</html
+```
