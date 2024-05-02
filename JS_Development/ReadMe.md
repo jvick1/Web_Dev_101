@@ -415,4 +415,10 @@ document.getElementById("demo").innerHTML = fruits.join(" "); //this will remove
 </html
 ```
 
+### Sorting an Array
 
+In JavaScript, the `sort()` function arranges the elements of an array in ascending order by default, or based on a specified comparison function, while the `reverse()` function reverses the order of elements in the array.
+
+### Joining an Array
+
+## Conditional Statements
