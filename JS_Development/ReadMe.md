@@ -390,3 +390,29 @@ document.getElementById("demo").innerHTML = fruits.join(" "); //this will remove
 </body>
 </html
 ```
+
+### Splicing an Array
+
+Splicing an array in JavaScript refers to the process of removing, replacing, or adding elements at specific positions within the array.
+
+In our example, `fruits.splice(2,0,"Kiwi","Banana");` we are putting the following elements at index 2, not removing any of the other elements, adding kiwi and banana. 
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+<script>
+
+var fruits = ["Apple", "Orange", "Pear", "Grape"];
+fruits.splice(2,0,"Kiwi","Banana");
+document.getElementById("demo").innerHTML = fruits.join(" "); //this will remove grape
+
+</script>
+
+</body>
+</html
+```
+
+
