@@ -367,3 +367,26 @@ document.getElementById("demo").innerHTML = fruits.join(" "); //this will remove
 </body>
 </html
 ```
+
+### Changing and Deleting Elements
+
+Here we change orange to kiwi and remove or delete pear. 
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+<script>
+
+var fruits = ["Apple", "Orange", "Pear", "Grape"];
+fruits[1] = "Kiwi";
+delete fruits[2];
+document.getElementById("demo").innerHTML = fruits.join(" "); //this will remove grape
+
+</script>
+
+</body>
+</html
+```
