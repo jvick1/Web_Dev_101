@@ -214,9 +214,9 @@ console.log(personAsString);
 <p id="demo></p>
 
 <script>
-var string1 = "hello world";
+var string1 = "hello world"; //normal string
 var string2 = "hello 'world'"; //strings can contain quotes as long as they are the opposite
-var string3 = 'hello "world"';
+var string3 = 'hello "world"'; //opposite
 var string4 = "hello \"world\""; //use a backslash for a special character
 
 document.getElementById("demo").innerHTML = string1;
