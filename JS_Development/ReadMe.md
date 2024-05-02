@@ -383,7 +383,7 @@ Here we change orange to kiwi and remove or delete pear.
 var fruits = ["Apple", "Orange", "Pear", "Grape"];
 fruits[1] = "Kiwi";
 delete fruits[2];
-document.getElementById("demo").innerHTML = fruits.join(" "); //this will remove grape
+document.getElementById("demo").innerHTML = fruits.join(" "); 
 
 </script>
 
@@ -407,7 +407,7 @@ In our example, `fruits.splice(2,0,"Kiwi","Banana");` we are putting the followi
 
 var fruits = ["Apple", "Orange", "Pear", "Grape"];
 fruits.splice(2,0,"Kiwi","Banana");
-document.getElementById("demo").innerHTML = fruits.join(" "); //this will remove grape
+document.getElementById("demo").innerHTML = fruits.join(" "); 
 
 </script>
 
@@ -420,5 +420,29 @@ document.getElementById("demo").innerHTML = fruits.join(" "); //this will remove
 In JavaScript, the `sort()` function arranges the elements of an array in ascending order by default, or based on a specified comparison function, while the `reverse()` function reverses the order of elements in the array.
 
 ### Joining an Array
+
+use `concat();` to join two arrays together. In the example below we have two arrays, boys and girls, we then combine them using `concat()` and print that new array. 
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+<script>
+
+var Girls = ["Julie", "Samantha", "Jill"];
+var Boys = ["Bob", "Joe", "Walt"];
+
+var Combined = Girls.concat(Boys):
+
+document.getElementById("demo").innerHTML = Combined; 
+
+</script>
+
+</body>
+</html
+```
+
 
 ## Conditional Statements
