@@ -182,10 +182,6 @@ document.getElementById("demo").innerHTML = z;
 </html>
 ```
 
-### Arithmetic Operators 
-
-`+` Addition, `-` subtraction, `*` multiplication, `/` Division, `%` Modulus, `++` Increment, `--` Decrement.
-
 ### Objects
 
 A JavaScript object is a collection of key-value pairs where keys are strings (or symbols) and values can be of any data type, including other objects. Objects in JavaScript provide a way to organize and structure data.
@@ -207,4 +203,56 @@ These objects can be outputted using console logging `console.log(person);`, dis
 ```js
 let personAsString = JSON.stringify(person);
 console.log(personAsString);
+```
+
+### String
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+<script>
+var string1 = "hello world";
+var string2 = "hello 'world'"; //strings can contain quotes as long as they are the opposite
+var string3 = 'hello "world"';
+var string4 = "hello \"world\""; //use a backslash for a special character
+
+document.getElementById("demo").innerHTML = string1;
+
+</script>
+
+</body>
+</html>
+```
+
+## Arithmetic Operators 
+
+- `+` Addition
+- `-` subtraction
+- `*` multiplication
+- `/` Division
+- `%` Modulus
+- `++` Increment
+- `--` Decrement
+
+## Random Numbers
+
+This is a built-in JavaScript function that generates a random floating-point number between 0 (inclusive) and 1 (exclusive). It returns a random number each time it's called.
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+<script>
+
+document.getElementById("demo").innerHTML = Math.random();
+
+</script>
+
+</body>
+</html>
 ```
