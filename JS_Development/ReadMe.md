@@ -1,4 +1,4 @@
-# JS (JavaScript)
+# JavaScript 101
 
 JavaScript enables interaction with HTML elements through the Document Object Model (DOM), allowing developers to manipulate the structure, content, and style of web pages. 
 
