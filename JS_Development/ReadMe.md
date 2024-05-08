@@ -623,3 +623,33 @@ A while loop in JavaScript repeatedly executes a block of code as long as a spec
 </body>
 </html
 ```
+
+## Do-While Loop
+
+A do-while loop in JavaScript is similar to a while loop, but it always executes the block of code at least once before checking the condition. After the initial execution, it continues to execute the block of code as long as the specified condition evaluates to true.
+
+```html
+<html>
+<body>
+
+<button onclick="myFunction()"> Click Me </button>
+
+<p id="demo"></p>
+
+<script>
+
+function myFunction(){
+  var i=0;
+  do {
+    document.write(i+"<br>");
+    i++;
+  }
+  while (i < 10)
+  document.getElementById("demo").innerHTML = text;
+}
+
+</script>
+
+</body>
+</html
+```
