@@ -448,3 +448,38 @@ document.getElementById("demo").innerHTML = Combined;
 ## Conditional Statements
 
 Conditional statements in JavaScript, like `if`, `else if`, and `else`, allow you to execute different blocks of code based on specified conditions. These statements evaluate conditions and execute the corresponding block of code if the condition is true, providing a way to control the flow of your program based on different scenarios.
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+  <script type="text/javascript">
+
+  var score = 65;
+
+  if(score <50){
+    document.write("F");
+  }
+  else if(score <70){
+    document.write("D");
+  }
+  else if(score < 80){
+    document.write("C");
+  }  
+  else if(score < 90){
+    document.write("B");
+  }
+  else if(score < 100){
+    document.write("A");
+  }
+  else {
+    document.write("Score must be less than 100.");
+  }
+  
+  </script>
+
+</body>
+</html
+```
