@@ -600,3 +600,26 @@ A for-in loop in JavaScript iterates over the enumerable properties of an object
 </body>
 </html
 ```
+
+## While Loop
+
+A while loop in JavaScript repeatedly executes a block of code as long as a specified condition evaluates to true, providing a flexible way to repeat tasks until the condition becomes false.
+
+```html
+<html>
+<body>
+
+<script>
+
+  var i = 0;
+  while(i<20){
+    document.write(i);
+    document.write("<br />");
+    i++;
+  }
+
+</script>
+
+</body>
+</html
+```
