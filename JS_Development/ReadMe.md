@@ -677,3 +677,25 @@ for (let i = 0; i < 10; i++) {
     console.log(i);
 }
 ```
+
+## Functions
+
+In JavaScript, functions are reusable blocks of code that can be defined and invoked to perform a specific task or calculation. They encapsulate a set of instructions that can accept input parameters, perform operations, and optionally return a value. Functions enable modular programming, improving code organization, readability, and reusability.
+
+```html
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+
+function myFunction(a,b){
+  return a*b;
+}
+document.getElementById("demo").innerHTML = myFunction(8,2);
+</script>
+
+</body>
+</html
+```
