@@ -699,3 +699,33 @@ document.getElementById("demo").innerHTML = myFunction(8,2);
 </body>
 </html
 ```
+
+## JS Events
+
+In JavaScript, events are actions or occurrences that happen in the browser or in a web document, typically as a result of user interactions or system triggers. These events can be detected and handled using event listeners or event handlers. Examples of events include mouse clicks, keyboard presses, page loading, form submissions, and many others. Handling events allows developers to create interactive and responsive web applications by executing specific code in response to user actions or system events.
+
+Here is an onclick example:
+```html
+<html>
+<body>
+
+<button onclick="getElementById('demo').innerHTML=Date()">Time</button>
+
+<p id="demo"></p>
+
+</body>
+</html
+```
+
+And the same example but the time will display when you hover over the button. 
+```html
+<html>
+<body>
+
+<button onmouseover="getElementById('demo').innerHTML=Date()">Time</button>
+
+<p id="demo"></p>
+
+</body>
+</html
+```
