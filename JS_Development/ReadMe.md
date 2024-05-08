@@ -518,6 +518,8 @@ documnet.getElementById("demo").innerHTML = (x==8);
 
 ## Boolean
 
+Anything that is a real number is true anything else is false. So, all of these will return true besides b7.  
+
 ```html
 <html>
 <body>
