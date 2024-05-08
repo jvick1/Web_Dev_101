@@ -573,3 +573,30 @@ A for loop in JavaScript is a control flow statement that iterates over a block 
 </body>
 </html
 ```
+
+## For-in Loop
+
+A for-in loop in JavaScript iterates over the enumerable properties of an object, executing a specified block of code for each property until all properties have been processed.
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+<script>
+
+  var txt = "";
+  var person = {fname:"Josh", lname:"Smith", age:30};
+  var x;
+  
+  for (x in person) {
+    txt += person[x] + " ";
+  }
+  document.getElementById("demo").innerHTML = txt;
+
+</script>
+
+</body>
+</html
+```
