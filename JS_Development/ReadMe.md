@@ -483,3 +483,35 @@ Conditional statements in JavaScript, like `if`, `else if`, and `else`, allow yo
 </body>
 </html
 ```
+
+## Comparison Operators 
+
+These operators are used in conditional statements, comparisons, and other contexts to evaluate expressions and control the flow of the program.
+
+1. **Equality (==)**: Compares two values for equality, allowing type coercion.
+2. **Strict Equality (===)**: Compares two values for equality without type coercion; both value and type must be the same.
+3. **Inequality (!=)**: Compares two values for inequality, allowing type coercion.
+4. **Strict Inequality (!==)**: Compares two values for inequality without type coercion; both value and type must be different.
+5. **Greater Than (>)**: Checks if the left operand is greater than the right operand.
+6. **Greater Than or Equal To (>=)**: Checks if the left operand is greater than or equal to the right operand.
+7. **Less Than (<)**: Checks if the left operand is less than the right operand.
+8. **Less Than or Equal To (<=)**: Checks if the left operand is less than or equal to the right operand.
+
+Below is an example of checking if a value is equal. This will return True or False. In this example we print false. 
+
+```html
+<html>
+<body>
+
+<p id="demo></p>
+
+<script>
+
+var x=6;
+documnet.getElementById("demo").innerHTML = (x==8); 
+
+</script>
+
+</body>
+</html
+```
