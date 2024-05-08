@@ -459,10 +459,10 @@ Conditional statements in JavaScript, like `if`, `else if`, and `else`, allow yo
 
   var score = 65;
 
-  if(score <50){
+  if(score < 50){
     document.write("F");
   }
-  else if(score <70){
+  else if(score < 70){
     document.write("D");
   }
   else if(score < 80){
