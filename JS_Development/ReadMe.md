@@ -653,3 +653,27 @@ function myFunction(){
 </body>
 </html
 ```
+
+## Break & Continue 
+
+**break**: Terminates the current loop, switch, or labeled statement, immediately exiting the loop or switch.
+
+```js
+for (let i = 0; i < 10; i++) {
+    if (i === 5) {
+        break; // exits the loop when i is 5
+    }
+    console.log(i);
+}
+```
+
+**continue**: Skips the current loop iteration and continues with the next iteration.
+
+```js
+for (let i = 0; i < 10; i++) {
+    if (i === 5) {
+        continue; // skips iteration when i is 5
+    }
+    console.log(i);
+}
+```
