@@ -551,3 +551,25 @@ documnet.getElementById("demo").innerHTML =
 </body>
 </html
 ```
+
+## For Loop
+
+A for loop in JavaScript is a control flow statement that iterates over a block of code multiple times, executing the same code with different values until a specified condition is met.
+
+```html
+<html>
+<body>
+
+  <script type = "text/javascript">
+    var count;
+
+    for(count=0; count <= 10; count++){
+      document.write(count);
+      document.write("<br />");
+    }
+  
+  </script>
+
+</body>
+</html
+```
