@@ -5,7 +5,7 @@ This repo aims to provide an introduction to coding with CSS and JavaScript, foc
 In the **CSS section**, we'll work with IDs, classes, and divisions, text properties, image styling, and navigation rules. 
 The **JavaScript section** covers foundational concepts like placement and output, progressing to variables, arithmetic operators, arrays, conditional statements, loops, events, and functions, enabling students to integrate dynamic client-side functionality into their web pages.
 
-We'll leverage the Windows Subsystem for Linux (WSL) to create a Linux environment for Website development.
+We'll leverage the Windows Subsystem for Linux (WSL) to create a Linux environment for Website development. You can also use Notepad++.
 
 ### 👩‍💻 Setup WSL.
 
